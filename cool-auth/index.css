@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    background: linear-gradient(45deg, rgb(233,232,228), rgb(244,243,236));
+}
+
+.container{
+    width: 350px;
+    height: 730px;
+
+    border-radius: 40px;
+    margin-top: 50px;
+    background-color: #fefdf9;
+    overflow: hidden;
+    box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.2);
+}
+
+div.bg{
+    z-index: 0;
+}
+
+i{
+    color: white;
+}
+
+.fa-angle-left, .fa-angle-right{
+    font-size: 1.5em;
+}
+
+span.note{
+    font-weight: 600;
+    font-size: 2em;
+    color: white;
+}
+
+input[type="text"]{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    background: transparent;
+}
+
+div.sign-in-btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(to top right, #232529, #7f8084);
+}
+
+span.big{
+    font-weight: 900;
+    font-size: 1.2em;
+    color: #42484f;
+}
+
+span.underline{
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 0.8em;
+    color: #42484f;
+}
